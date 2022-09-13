@@ -1,0 +1,17 @@
+{
+  "name": "Playwright",
+  "version": "1.0.0",
+  "description": "Playwright NodeJs app to be deployed on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-lambda run index.js",
+    "zip": "node-lambda package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marco_refaat@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "playwright-aws-lambda": "^0.7.0",
+    "playwright-core": "^1.20.2"
+  }
+}
